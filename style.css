@@ -325,7 +325,7 @@ address{
 
 
 /* ======= Tablet View (max-width: 1024px) ======= */
-@media screen and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     header {
         height: 80px;
         padding: 0 10px;
@@ -439,7 +439,7 @@ address{
 }
 
 /* ======= Mobile View (max-width: 768px) ======= */
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     header {
         flex-direction: column;
         height: auto;
